@@ -18,7 +18,7 @@ export function FinalCTA() {
               size="lg"
               className="rounded-full px-10 py-6 text-base md:px-16 md:py-8 md:text-xl font-bold shadow-[0_0_30px] shadow-primary/60 transition-transform duration-300 hover:scale-105"
             >
-              <Link href="https://pay.cakto.com.br/yhefprd_614524">Sim, Eu Quero Transformar Minhas Noites!</Link>
+              <Link href="#pricing">Sim, Eu Quero Transformar Minhas Noites!</Link>
             </Button>
             <p className="mt-4 text-sm text-muted-foreground">
               Compra 100% segura. Garantia de 7 dias.
