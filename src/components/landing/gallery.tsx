@@ -12,9 +12,6 @@ const galleryImages = [
   PlaceHolderImages.find((img) => img.id === 'gallery-1'),
   PlaceHolderImages.find((img) => img.id === 'gallery-2'),
   PlaceHolderImages.find((img) => img.id === 'gallery-3'),
-  PlaceHolderImages.find((img) => img.id === 'gallery-4'),
-  PlaceHolderImages.find((img) => img.id === 'gallery-5'),
-  PlaceHolderImages.find((img) => img.id === 'gallery-6'),
 ];
 
 export function Gallery() {
