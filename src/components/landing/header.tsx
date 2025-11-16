@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { PURCHASE_LINK } from '@/lib/config';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +36,7 @@ export function Header() {
           className="transform transition-transform duration-300 hover:scale-105"
           size="lg"
         >
-          <Link href={PURCHASE_LINK}>Quero Sentir Agora</Link>
+          <Link href="#pricing">Quero Sentir Agora</Link>
         </Button>
       </div>
     </header>

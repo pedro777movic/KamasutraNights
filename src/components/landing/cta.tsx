@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import { PURCHASE_LINK } from '@/lib/config';
 import Link from 'next/link';
 
 export function FinalCTA() {
@@ -19,7 +18,7 @@ export function FinalCTA() {
               size="lg"
               className="rounded-full px-16 py-8 text-xl font-bold shadow-[0_0_30px] shadow-primary/60 transition-transform duration-300 hover:scale-105"
             >
-              <Link href={PURCHASE_LINK}>Sim, Eu Quero Transformar Minhas Noites!</Link>
+              <Link href="#pricing">Sim, Eu Quero Transformar Minhas Noites!</Link>
             </Button>
             <p className="mt-4 text-sm text-muted-foreground">
               Compra 100% segura. Garantia de 7 dias.

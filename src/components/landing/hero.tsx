@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import { PURCHASE_LINK } from '@/lib/config';
 import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -32,7 +31,7 @@ export function Hero() {
             size="lg"
             className="rounded-full px-12 py-7 text-lg font-bold shadow-[0_0_20px] shadow-primary/50 transition-transform duration-300 hover:scale-105"
           >
-            <Link href={PURCHASE_LINK}>Quero Sentir Agora</Link>
+            <Link href="#pricing">Quero Sentir Agora</Link>
           </Button>
 
           {heroImage && (
@@ -43,7 +42,7 @@ export function Hero() {
                 width={1080}
                 height={1080}
                 data-ai-hint={heroImage.imageHint}
-                className="rounded-lg object-cover shadow-2xl shadow-primary/20"
+                className="rounded-lg object-contain shadow-2xl shadow-primary/20"
                 priority
               />
             </div>
