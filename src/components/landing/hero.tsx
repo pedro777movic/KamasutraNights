@@ -7,7 +7,7 @@ export function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-main-image');
 
   return (
-    <section className="relative py-16 md:py-32">
+    <section className="relative overflow-hidden py-16 md:py-32">
       <div
         aria-hidden="true"
         className="absolute inset-0 top-0 -z-10 h-full w-full bg-background"
@@ -35,16 +35,15 @@ export function Hero() {
           </Button>
 
           {heroImage && (
-            <div className="relative mt-8 w-full max-w-4xl mx-auto">
+            <div className="relative mt-8 w-full max-w-4xl mx-auto px-8 md:px-0">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
-                width={0}
-                height={0}
-                sizes="100vw"
+                width={1024}
+                height={576}
+                sizes="(max-width: 768px) 100vw, 896px"
                 data-ai-hint={heroImage.imageHint}
                 className="rounded-lg object-contain w-full h-auto mx-auto shadow-2xl shadow-primary/20"
-                style={{ objectFit: 'contain' }}
                 priority
               />
             </div>
