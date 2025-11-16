@@ -56,15 +56,14 @@ export function Features() {
                     <Card className="bg-background border-border/50 h-full flex flex-col">
                       <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center flex-grow">
                         {feature.image && (
-                          <div className="w-full h-auto max-h-[400px] flex items-center justify-center">
+                          <div className="w-full max-h-[400px] flex items-center justify-center">
                             <Image
                               src={feature.image.imageUrl}
                               alt={feature.image.description}
-                              width={0}
-                              height={0}
-                              sizes="100vw"
+                              width={300}
+                              height={600}
                               data-ai-hint={feature.image.imageHint}
-                              className="rounded-lg object-contain w-auto h-auto max-h-full"
+                              className="rounded-lg object-contain w-auto h-full"
                             />
                           </div>
                         )}
@@ -78,8 +77,8 @@ export function Features() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="text-foreground hidden md:flex" />
-            <CarouselNext className="text-foreground hidden md:flex" />
+            <CarouselPrevious className="text-foreground -left-2 md:-left-12" />
+            <CarouselNext className="text-foreground -right-2 md:-right-12" />
           </Carousel>
         </div>
       </div>

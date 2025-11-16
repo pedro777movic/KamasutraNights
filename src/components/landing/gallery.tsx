@@ -43,9 +43,9 @@ export function Gallery() {
                        <Image
                         src={image.imageUrl}
                         alt={image.description}
-                        width={0}
-                        height={0}
-                        sizes="100vw"
+                        width={600}
+                        height={400}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         data-ai-hint={image.imageHint}
                         className="rounded-lg w-full h-auto object-contain transition-transform duration-300 hover:scale-105"
                       />
@@ -54,8 +54,8 @@ export function Gallery() {
                 ) : null
               )}
             </CarouselContent>
-            <CarouselPrevious className="text-foreground hidden md:flex" />
-            <CarouselNext className="text-foreground hidden md:flex" />
+            <CarouselPrevious className="text-foreground -left-2 md:-left-12" />
+            <CarouselNext className="text-foreground -right-2 md:-right-12" />
           </Carousel>
         </div>
       </div>
