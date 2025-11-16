@@ -22,7 +22,7 @@ const featuresContent = [
   },
   {
     image: PlaceHolderImages.find((img) => img.id === 'phone-mockup-3'),
-    title: 'Jornadas de Prazer',
+    title: 'Dificuldades variadas',
     description: 'Siga nossas jornadas temáticas para explorar novas fantasias e sensações.',
   },
 ];
