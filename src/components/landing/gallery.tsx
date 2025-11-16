@@ -43,11 +43,11 @@ export function Gallery() {
                        <Image
                         src={image.imageUrl}
                         alt={image.description}
-                        width={600}
-                        height={600}
+                        width={0}
+                        height={0}
+                        sizes="100vw"
                         data-ai-hint={image.imageHint}
-                        className="rounded-lg object-cover w-full h-auto transition-transform duration-300 hover:scale-105"
-                        style={{ aspectRatio: '1 / 1' }}
+                        className="rounded-lg w-full h-auto object-contain transition-transform duration-300 hover:scale-105"
                       />
                     </div>
                   </CarouselItem>
