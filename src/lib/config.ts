@@ -1,1 +1,1 @@
-export const PURCHASE_LINK = "#";
+export const PURCHASE_LINK = "#pricing";
