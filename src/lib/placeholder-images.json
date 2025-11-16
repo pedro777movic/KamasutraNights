@@ -41,6 +41,30 @@
       "description": "Portrait of a third satisfied woman.",
       "imageUrl": "https://images.unsplash.com/photo-1542596594-649edbc13630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBoYXBweXxlbnwwfHx8fDE3NjMyMzg4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person happy"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Sensual abstract background with silk texture.",
+      "imageUrl": "https://images.unsplash.com/photo-1494354145959-25cb82edf23d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzZW5zdWFsJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sensual background"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Close up of a couple holding hands.",
+      "imageUrl": "https://images.unsplash.com/photo-1561287495-a3fe1fd28504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3VwbGUlMjBoYW5kc3xlbnwwfHx8fDE3NjMyMDgxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple hands"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Illustration of a lotus flower.",
+      "imageUrl": "https://images.unsplash.com/photo-1593047833652-2ae65f74b22f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb3R1cyUyMGZsb3dlcnxlbnwwfHx8fDE3NjMyMDI4MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lotus flower"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Abstract lights creating a romantic mood.",
+      "imageUrl": "https://images.unsplash.com/photo-1592815371489-7f6a53707656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGxpZ2h0c3xlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "romantic lights"
     }
   ]
 }

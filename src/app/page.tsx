@@ -2,6 +2,7 @@ import { Header } from '@/components/landing/header';
 import { Hero } from '@/components/landing/hero';
 import { Benefits } from '@/components/landing/benefits';
 import { Features } from '@/components/landing/features';
+import { Gallery } from '@/components/landing/gallery';
 import { HowItWorks } from '@/components/landing/how-it-works';
 import { Testimonials } from '@/components/landing/testimonials';
 import { FinalCTA } from '@/components/landing/cta';
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Benefits />
         <Features />
+        <Gallery />
         <HowItWorks />
         <Testimonials />
         <FinalCTA />

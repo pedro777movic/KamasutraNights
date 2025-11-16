@@ -1,7 +1,7 @@
 import { Check } from 'lucide-react';
 
 const benefits = [
-  'Explore novas dimensões de prazer.',
+  'Explore mais de 100 posições com guias visuais.',
   'Aumente a intimidade e a conexão com seu parceiro.',
   'Redescubra sua sensualidade e autoconfiança.',
   'Aprenda técnicas milenares adaptadas para a vida moderna.',

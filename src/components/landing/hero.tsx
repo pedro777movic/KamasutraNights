@@ -19,7 +19,7 @@ export function Hero() {
             <span className="text-primary">Mais Você.</span>
           </h1>
           <p className="max-w-[700px] text-lg text-foreground/80 md:text-xl">
-            Desvende os segredos do Kama Sutra e transforme suas noites em
+            Desvende os segredos do Kama Sutra em nosso app com mais de 100 posições ilustradas e transforme suas noites em
             experiências inesquecíveis de puro êxtase e conexão profunda.
           </p>
           <Button
