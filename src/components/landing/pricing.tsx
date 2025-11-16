@@ -41,7 +41,7 @@ export function Pricing() {
                   size="lg"
                   className="w-full rounded-full text-base md:text-lg font-bold shadow-[0_0_20px] shadow-primary/50 transition-transform duration-300 hover:scale-105"
                 >
-                  <Link href="https://pay.cakto.com.br/yhefprd_614524">Quero Acesso Imediato</Link>
+                  <Link href={PURCHASE_LINK}>Quero Acesso Imediato</Link>
                 </Button>
               </div>
               <div className="space-y-4">
