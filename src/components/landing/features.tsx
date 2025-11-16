@@ -56,15 +56,17 @@ export function Features() {
                     <Card className="bg-background border-border/50 h-full flex flex-col">
                       <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center flex-grow">
                         {feature.image && (
-                          <Image
-                            src={feature.image.imageUrl}
-                            alt={feature.image.description}
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            data-ai-hint={feature.image.imageHint}
-                            className="rounded-lg object-contain w-auto h-auto max-h-[400px]"
-                          />
+                          <div className="w-full h-auto max-h-[400px] flex items-center justify-center">
+                            <Image
+                              src={feature.image.imageUrl}
+                              alt={feature.image.description}
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              data-ai-hint={feature.image.imageHint}
+                              className="rounded-lg object-contain w-auto h-auto max-h-full"
+                            />
+                          </div>
                         )}
                         <div className='mt-4'>
                           <h3 className="text-xl font-bold text-accent">{feature.title}</h3>
