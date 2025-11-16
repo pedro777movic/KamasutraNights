@@ -74,9 +74,9 @@
     },
     {
       "id": "gallery-3",
-      "description": "Illustration of a lotus flower.",
-      "imageUrl": "https://images.unsplash.com/photo-1474557157379-8aa74a6ef541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb3R1cyUyMGZsb3dlcnxlbnwwfHx8fDE3NjMyMDI4MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "lotus flower"
+      "description": "A stylish image of a couple in a tender and intimate moment, with an artistic and sophisticated feel.",
+      "imageUrl": "https://i.postimg.cc/yNs8PLrx/Design-sem-nome-(9).png",
+      "imageHint": "couple embracing"
     },
     {
       "id": "gallery-4",
@@ -87,7 +87,7 @@
     {
       "id": "gallery-5",
       "description": "Red rose petals on a dark background.",
-      "imageUrl": "https://images.unsplash.com/photo-1615919737249-965d68c7e439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb3NlJTIwcGV0YWxzfGVufDB8fHx8MTc2MzIxMTU1Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615919737249-965d68c7e439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb3NlJTIwcGV0YWxzfGVufDB8fHx8MTc2MzIxMTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rose petals"
     },
     {
