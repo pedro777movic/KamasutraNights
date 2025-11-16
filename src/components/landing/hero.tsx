@@ -36,11 +36,12 @@ export function Hero() {
           </Button>
 
           {heroImage && (
-            <div className="relative mt-8 w-full max-w-4xl mx-auto aspect-video">
+            <div className="relative mt-8 w-full max-w-4xl mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
-                fill
+                width={1080}
+                height={1080}
                 data-ai-hint={heroImage.imageHint}
                 className="rounded-lg object-cover shadow-2xl shadow-primary/20"
                 priority
