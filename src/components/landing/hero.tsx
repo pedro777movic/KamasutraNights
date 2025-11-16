@@ -13,7 +13,7 @@ export function Hero() {
         className="absolute inset-0 top-0 -z-10 h-full w-full bg-background"
       >
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-        <div className="absolute left-0 top-0 h-full w-full bg-[radial-gradient(circle_800px_at_50%_200px,#e91e6222,transparent)]"></div>
+        <div className="absolute left-0 top-0 h-full w-full bg-[radial-gradient(circle_800px_at_50%_200px,#D81B6022,transparent)]"></div>
       </div>
       <div className="container mx-auto px-4 text-center md:px-6">
         <div className="flex flex-col items-center space-y-6 md:space-y-8">
@@ -35,15 +35,14 @@ export function Hero() {
           </Button>
 
           {heroImage && (
-            <div className="relative mt-8 w-full max-w-4xl mx-auto px-8 md:px-0">
+            <div className="relative mt-8 flex justify-center">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
-                width={1024}
-                height={576}
-                sizes="(max-width: 768px) 100vw, 896px"
+                width={300}
+                height={600}
                 data-ai-hint={heroImage.imageHint}
-                className="rounded-lg object-contain w-full h-auto mx-auto shadow-2xl shadow-primary/20"
+                className="rounded-lg object-contain shadow-2xl shadow-primary/20"
                 priority
               />
             </div>
