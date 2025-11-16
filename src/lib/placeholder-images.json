@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract sensual dark texture with golden particles",
+      "imageUrl": "https://images.unsplash.com/photo-1723164469880-7d52e24b590c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZW5zdWFsJTIwdGV4dHVyZXxlbnwwfHx8fDE3NjMyNTY0OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sensual texture"
+    },
+    {
+      "id": "phone-mockup-1",
+      "description": "Phone showing an illustration of a couple in a sensual pose.",
+      "imageUrl": "https://images.unsplash.com/photo-1624517542693-6f10f3c9dc40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGhvbmUlMjBzY3JlZW58ZW58MHx8fHwxNzYzMjEwNTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone screen"
+    },
+    {
+      "id": "phone-mockup-2",
+      "description": "Phone showing an illustration of a different couple pose.",
+      "imageUrl": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwaG9uZSUyMHNjcmVlbnxlbnwwfHx8fDE3NjMyMTA1NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone screen"
+    },
+    {
+      "id": "phone-mockup-3",
+      "description": "Phone showing another app screen with illustrations.",
+      "imageUrl": "https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaG9uZSUyMGFwcHxlbnwwfHx8fDE3NjMyNTY0OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone app"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Portrait of a smiling woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMyNTYwOTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Portrait of another happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1711645169736-53327e726205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYzMTc1NDAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Portrait of a third satisfied woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1542596594-649edbc13630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBoYXBweXxlbnwwfHx8fDE3NjMyMzg4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person happy"
+    }
+  ]
 }
