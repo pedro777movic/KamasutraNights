@@ -1,12 +1,24 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
 
 const galleryImages = [
   PlaceHolderImages.find((img) => img.id === 'gallery-1'),
   PlaceHolderImages.find((img) => img.id === 'gallery-2'),
   PlaceHolderImages.find((img) => img.id === 'gallery-3'),
   PlaceHolderImages.find((img) => img.id === 'gallery-4'),
+  PlaceHolderImages.find((img) => img.id === 'gallery-5'),
+  PlaceHolderImages.find((img) => img.id === 'gallery-6'),
 ];
+
+const featuredImage1 = PlaceHolderImages.find((img) => img.id === 'gallery-main-1');
+const featuredImage2 = PlaceHolderImages.find((img) => img.id === 'gallery-main-2');
 
 export function Gallery() {
   return (
@@ -20,20 +32,60 @@ export function Gallery() {
             Cada detalhe do nosso app foi pensado para inspirar e guiar você em uma jornada de prazer.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
-          {galleryImages.map((image, index) =>
-            image ? (
-              <div key={index} className="relative aspect-square">
-                <Image
-                  src={image.imageUrl}
-                  alt={image.description}
-                  fill
-                  data-ai-hint={image.imageHint}
-                  className="rounded-lg object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-            ) : null
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          {featuredImage1 && (
+            <div className="relative aspect-[4/3] w-full">
+              <Image
+                src={featuredImage1.imageUrl}
+                alt={featuredImage1.description}
+                fill
+                data-ai-hint={featuredImage1.imageHint}
+                className="rounded-lg object-cover shadow-lg transition-transform duration-300 hover:scale-105"
+              />
+            </div>
           )}
+          {featuredImage2 && (
+            <div className="relative aspect-[4/3] w-full">
+              <Image
+                src={featuredImage2.imageUrl}
+                alt={featuredImage2.description}
+                fill
+                data-ai-hint={featuredImage2.imageHint}
+                className="rounded-lg object-cover shadow-lg transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          )}
+        </div>
+        <div className="mx-auto max-w-5xl pt-16">
+           <Carousel
+            opts={{
+              align: 'start',
+              loop: true,
+            }}
+            className="w-full"
+          >
+            <CarouselContent>
+              {galleryImages.map((image, index) =>
+                image ? (
+                  <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                    <div className="p-1">
+                       <div className="relative aspect-square">
+                        <Image
+                          src={image.imageUrl}
+                          alt={image.description}
+                          fill
+                          data-ai-hint={image.imageHint}
+                          className="rounded-lg object-cover transition-transform duration-300 hover:scale-105"
+                        />
+                      </div>
+                    </div>
+                  </CarouselItem>
+                ) : null
+              )}
+            </CarouselContent>
+            <CarouselPrevious className="text-foreground" />
+            <CarouselNext className="text-foreground" />
+          </Carousel>
         </div>
       </div>
     </section>

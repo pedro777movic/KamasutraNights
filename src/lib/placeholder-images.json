@@ -49,28 +49,52 @@
       "imageHint": "person happy"
     },
     {
+      "id": "gallery-main-1",
+      "description": "Artistic shot of a couple's silhouette against a warm light.",
+      "imageUrl": "https://images.unsplash.com/photo-1650658765299-c1470b7d9945?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBzaWxob3VldHRlfGVufDB8fHx8MTc2MzI0NDAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple silhouette"
+    },
+    {
+      "id": "gallery-main-2",
+      "description": "Sensual close-up of a neck with a necklace.",
+      "imageUrl": "https://images.unsplash.com/photo-1762195025289-f6b87a0fef14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZW5zdWFsJTIwamV3ZWxyeXxlbnwwfHx8fDE3NjMyNTg3MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sensual jewelry"
+    },
+    {
       "id": "gallery-1",
       "description": "Sensual abstract background with silk texture.",
-      "imageUrl": "https://images.unsplash.com/photo-1494354145959-25cb82edf23d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzZW5zdWFsJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1557206843-1cf213a7a608?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzZW5zdWFsJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sensual background"
     },
     {
       "id": "gallery-2",
       "description": "Close up of a couple holding hands.",
-      "imageUrl": "https://images.unsplash.com/photo-1561287495-a3fe1fd28504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3VwbGUlMjBoYW5kc3xlbnwwfHx8fDE3NjMyMDgxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579208570378-8c970854bc23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjBoYW5kc3xlbnwwfHx8fDE3NjMyMDgxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "couple hands"
     },
     {
       "id": "gallery-3",
       "description": "Illustration of a lotus flower.",
-      "imageUrl": "https://images.unsplash.com/photo-1593047833652-2ae65f74b22f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb3R1cyUyMGZsb3dlcnxlbnwwfHx8fDE3NjMyMDI4MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1474557157379-8aa74a6ef541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb3R1cyUyMGZsb3dlcnxlbnwwfHx8fDE3NjMyMDI4MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "lotus flower"
     },
     {
       "id": "gallery-4",
       "description": "Abstract lights creating a romantic mood.",
-      "imageUrl": "https://images.unsplash.com/photo-1592815371489-7f6a53707656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGxpZ2h0c3xlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1762554560985-83de56a349c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb21hbnRpYyUyMGxpZ2h0c3xlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "romantic lights"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Red rose petals on a dark background.",
+      "imageUrl": "https://images.unsplash.com/photo-1615919737249-965d68c7e439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb3NlJTIwcGV0YWxzfGVufDB8fHx8MTc2MzIxMTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rose petals"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Scented candles burning in a dim room.",
+      "imageUrl": "https://images.unsplash.com/photo-1580445206726-c6eace8e02e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2VudGVkJTIwY2FuZGxlc3xlbnwwfHx8fDE3NjMxOTExNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scented candles"
     }
   ]
 }
