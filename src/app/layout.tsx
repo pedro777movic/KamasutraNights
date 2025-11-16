@@ -19,7 +19,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Belezza&display=swap" rel="stylesheet" />
-        
+      </head>
+      <body className="font-body antialiased">
         {/* Meta Pixel Code */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
@@ -56,14 +57,13 @@ export default function RootLayout({
 
         {/* UTMs Capture Code */}
         <Script
+          id="utmify-capture"
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           data-utmify-prevent-xcod-sck
           data-utmify-prevent-subids
-          async
-          defer
+          strategy="afterInteractive"
         ></Script>
-      </head>
-      <body className="font-body antialiased">
+        
         {children}
         <Toaster />
       </body>
