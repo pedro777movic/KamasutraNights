@@ -40,15 +40,14 @@ export function Gallery() {
                 image ? (
                   <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                     <div className="p-1">
-                       <div className="relative aspect-square">
-                        <Image
-                          src={image.imageUrl}
-                          alt={image.description}
-                          fill
-                          data-ai-hint={image.imageHint}
-                          className="rounded-lg object-cover transition-transform duration-300 hover:scale-105"
-                        />
-                      </div>
+                       <Image
+                        src={image.imageUrl}
+                        alt={image.description}
+                        width={600}
+                        height={600}
+                        data-ai-hint={image.imageHint}
+                        className="rounded-lg object-cover w-full h-auto aspect-square transition-transform duration-300 hover:scale-105"
+                      />
                     </div>
                   </CarouselItem>
                 ) : null

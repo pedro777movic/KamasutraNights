@@ -62,7 +62,7 @@ export function Testimonials() {
                               width={48}
                               height={48}
                               data-ai-hint={testimonial.avatar.imageHint}
-                              className="rounded-full"
+                              className="rounded-full object-cover"
                             />
                           )}
                           <p className="font-bold text-accent">{testimonial.name}</p>

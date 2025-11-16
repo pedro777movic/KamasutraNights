@@ -59,8 +59,8 @@ export function Features() {
                           <Image
                             src={feature.image.imageUrl}
                             alt={feature.image.description}
-                            width={200}
-                            height={400}
+                            width={250}
+                            height={444}
                             data-ai-hint={feature.image.imageHint}
                             className="rounded-lg object-contain"
                           />
