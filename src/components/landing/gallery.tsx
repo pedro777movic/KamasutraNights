@@ -17,9 +17,6 @@ const galleryImages = [
   PlaceHolderImages.find((img) => img.id === 'gallery-6'),
 ];
 
-const featuredImage1 = PlaceHolderImages.find((img) => img.id === 'gallery-main-1');
-const featuredImage2 = PlaceHolderImages.find((img) => img.id === 'gallery-main-2');
-
 export function Gallery() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
@@ -32,30 +29,7 @@ export function Gallery() {
             Cada detalhe do nosso app foi pensado para inspirar e guiar você em uma jornada de prazer.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {featuredImage1 && (
-            <div className="relative aspect-[4/3] w-full">
-              <Image
-                src={featuredImage1.imageUrl}
-                alt={featuredImage1.description}
-                fill
-                data-ai-hint={featuredImage1.imageHint}
-                className="rounded-lg object-cover shadow-lg transition-transform duration-300 hover:scale-105"
-              />
-            </div>
-          )}
-          {featuredImage2 && (
-            <div className="relative aspect-[4/3] w-full">
-              <Image
-                src={featuredImage2.imageUrl}
-                alt={featuredImage2.description}
-                fill
-                data-ai-hint={featuredImage2.imageHint}
-                className="rounded-lg object-cover shadow-lg transition-transform duration-300 hover:scale-105"
-              />
-            </div>
-          )}
-        </div>
+        
         <div className="mx-auto max-w-5xl pt-16">
            <Carousel
             opts={{
