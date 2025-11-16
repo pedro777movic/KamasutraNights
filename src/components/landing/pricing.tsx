@@ -19,7 +19,7 @@ export function Pricing() {
       <div className="container mx-auto max-w-3xl px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">
-              Acesso Imediato à Transformação
+              Acesso Imediato ao Prazer
             </h2>
             <p className="max-w-[900px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Um único investimento para uma vida inteira de prazer e conexão.
