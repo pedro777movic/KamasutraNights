@@ -4,6 +4,7 @@ import { Benefits } from '@/components/landing/benefits';
 import { Features } from '@/components/landing/features';
 import { Gallery } from '@/components/landing/gallery';
 import { HowItWorks } from '@/components/landing/how-it-works';
+import { Pricing } from '@/components/landing/pricing';
 import { Testimonials } from '@/components/landing/testimonials';
 import { FinalCTA } from '@/components/landing/cta';
 import { Footer } from '@/components/landing/footer';
@@ -18,6 +19,7 @@ export default function Home() {
         <Features />
         <Gallery />
         <HowItWorks />
+        <Pricing />
         <Testimonials />
         <FinalCTA />
       </main>
