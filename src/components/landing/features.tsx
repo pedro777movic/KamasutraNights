@@ -59,11 +59,11 @@ export function Features() {
                           <Image
                             src={feature.image.imageUrl}
                             alt={feature.image.description}
-                            width={250}
-                            height={444}
+                            width={0}
+                            height={0}
+                            sizes="100vw"
                             data-ai-hint={feature.image.imageHint}
-                            className="rounded-lg object-contain w-full h-auto"
-                            style={{ aspectRatio: '250 / 444' }}
+                            className="rounded-lg object-contain w-auto h-auto max-h-[400px]"
                           />
                         )}
                         <div className='mt-4'>
