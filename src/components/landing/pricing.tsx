@@ -41,7 +41,7 @@ export function Pricing() {
                   size="lg"
                   className="w-full rounded-full text-base md:text-lg font-bold shadow-[0_0_20px] shadow-primary/50 transition-transform duration-300 hover:scale-105"
                 >
-                  <Link href={PURCHASE_LINK} target="_blank">Quero Acesso Imediato</Link>
+                  <a href={PURCHASE_LINK} target="_blank" rel="noopener noreferrer">Quero Acesso Imediato</a>
                 </Button>
               </div>
               <div className="space-y-4">
