@@ -35,7 +35,7 @@ export function Hero() {
           </Button>
 
           {heroImage && (
-            <div className="relative mt-8 w-full max-w-lg mx-auto">
+            <div className="relative mt-8 w-full max-w-md mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
