@@ -20,8 +20,7 @@ export function Hero() {
         <div className="flex flex-col items-center space-y-8">
           <div className="space-y-6">
             <h1 className="font-headline text-4xl font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-              Mais Prazer, Mais Conexão,{" "}
-              <span className="text-primary">Mais Você.</span>
+              Transforme suas noites em <span className="text-primary">puro prazer.</span>
             </h1>
             <p className="max-w-[700px] mx-auto text-lg text-foreground/80 md:text-xl">
               Desvende os segredos do Kama Sutra em nosso app com mais de 100 posições ilustradas e transforme suas noites em
