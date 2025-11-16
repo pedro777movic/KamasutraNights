@@ -35,11 +35,11 @@ export function Testimonials() {
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight font-headline">
             Elas experimentaram e se apaixonaram
           </h2>
-          <p className="mx-auto max-w-[600px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto max-w-[600px] text-foreground/80 text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Veja o que nossas clientes estão dizendo sobre a transformação em suas vidas íntimas.
           </p>
         </div>
-        <div className="w-full max-w-4xl">
+        <div className="w-full max-w-sm md:max-w-4xl">
           <Carousel
             opts={{
               align: 'start',
@@ -51,9 +51,9 @@ export function Testimonials() {
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="md:basis-1/2">
                   <div className="p-4">
-                    <Card className="bg-background border-none pt-6">
-                      <CardContent className="space-y-4">
-                        <p className="text-lg italic text-foreground/90">"{testimonial.quote}"</p>
+                    <Card className="bg-background border-none pt-6 h-full">
+                      <CardContent className="space-y-4 h-full flex flex-col justify-center">
+                        <p className="text-base md:text-lg italic text-foreground/90 flex-grow">"{testimonial.quote}"</p>
                         <div className="flex items-center justify-center gap-4">
                           {testimonial.avatar && (
                             <Image
@@ -73,8 +73,8 @@ export function Testimonials() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="text-foreground" />
-            <CarouselNext className="text-foreground" />
+            <CarouselPrevious className="text-foreground -left-4 md:-left-12" />
+            <CarouselNext className="text-foreground -right-4 md:-right-12" />
           </Carousel>
         </div>
       </div>

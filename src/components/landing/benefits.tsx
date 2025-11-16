@@ -18,7 +18,7 @@ export function Benefits() {
                 <div className="mt-1 flex-shrink-0">
                   <Check className="h-6 w-6 text-primary" />
                 </div>
-                <p className="text-lg text-foreground/90">{benefit}</p>
+                <p className="text-base md:text-lg text-foreground/90">{benefit}</p>
               </li>
             ))}
           </ul>

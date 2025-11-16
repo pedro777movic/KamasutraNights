@@ -28,13 +28,13 @@ export function Header() {
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="text-2xl font-bold tracking-tight text-accent font-headline">
+        <Link href="/" className="text-xl md:text-2xl font-bold tracking-tight text-accent font-headline">
           Kama Sutra Nights
         </Link>
         <Button
           asChild
           className="transform transition-transform duration-300 hover:scale-105"
-          size="lg"
+          size="sm"
         >
           <Link href="#pricing">Quero Sentir Agora</Link>
         </Button>

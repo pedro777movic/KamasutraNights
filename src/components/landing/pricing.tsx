@@ -21,17 +21,17 @@ export function Pricing() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">
               Acesso Imediato ao Prazer
             </h2>
-            <p className="max-w-[900px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-foreground/80 text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Um único investimento para uma vida inteira de prazer e conexão.
             </p>
         </div>
 
         <Card className="border-primary/50 shadow-[0_0_30px] shadow-primary/30 rounded-2xl">
-          <CardContent className="p-8">
+          <CardContent className="p-6 md:p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div className="space-y-6">
+              <div className="space-y-6 text-center md:text-left">
                 <h3 className="text-2xl font-bold font-headline text-accent">Acesso Vitalício</h3>
-                <div className="flex items-baseline gap-2">
+                <div className="flex items-baseline justify-center md:justify-start gap-2">
                   <span className="text-4xl font-bold tracking-tighter">R$47</span>
                   <span className="text-lg text-muted-foreground line-through">R$97</span>
                 </div>
@@ -39,9 +39,9 @@ export function Pricing() {
                 <Button
                   asChild
                   size="lg"
-                  className="w-full rounded-full text-lg font-bold shadow-[0_0_20px] shadow-primary/50 transition-transform duration-300 hover:scale-105"
+                  className="w-full rounded-full text-base md:text-lg font-bold shadow-[0_0_20px] shadow-primary/50 transition-transform duration-300 hover:scale-105"
                 >
-                  <Link href={PURCHASE_LINK}>Quero Acesso Imediato</Link>
+                  <Link href="https://pay.cakto.com.br/yhefprd_614524">Quero Acesso Imediato</Link>
                 </Button>
               </div>
               <div className="space-y-4">
@@ -49,7 +49,7 @@ export function Pricing() {
                   {includedFeatures.map((feature, index) => (
                     <li key={index} className="flex items-center gap-3">
                       <Check className="h-5 w-5 flex-shrink-0 text-primary" />
-                      <span className="text-foreground/90">{feature}</span>
+                      <span className="text-sm md:text-base text-foreground/90">{feature}</span>
                     </li>
                   ))}
                 </ul>

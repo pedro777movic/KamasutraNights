@@ -36,7 +36,7 @@ export function Features() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">
               O Que Você Vai Encontrar:
             </h2>
-            <p className="max-w-[900px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-foreground/80 text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Nosso guia interativo é o seu mapa para o tesouro do prazer. Fácil de usar, direto ao ponto e incrivelmente excitante.
             </p>
           </div>
@@ -52,9 +52,9 @@ export function Features() {
             <CarouselContent>
               {featuresContent.map((feature, index) => (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1">
-                    <Card className="bg-background border-border/50 h-full">
-                      <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center">
+                  <div className="p-1 h-full">
+                    <Card className="bg-background border-border/50 h-full flex flex-col">
+                      <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center flex-grow">
                         {feature.image && (
                           <Image
                             src={feature.image.imageUrl}
@@ -62,7 +62,8 @@ export function Features() {
                             width={250}
                             height={444}
                             data-ai-hint={feature.image.imageHint}
-                            className="rounded-lg object-contain"
+                            className="rounded-lg object-contain w-full h-auto"
+                            style={{ aspectRatio: '250 / 444' }}
                           />
                         )}
                         <div className='mt-4'>
@@ -75,8 +76,8 @@ export function Features() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="text-foreground" />
-            <CarouselNext className="text-foreground" />
+            <CarouselPrevious className="text-foreground hidden md:flex" />
+            <CarouselNext className="text-foreground hidden md:flex" />
           </Carousel>
         </div>
       </div>

@@ -22,12 +22,12 @@ export function Gallery() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">
             Uma Experiência Visualmente Excitante
           </h2>
-          <p className="max-w-[900px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="max-w-[900px] text-foreground/80 text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Cada detalhe do nosso app foi pensado para inspirar e guiar você em uma jornada de prazer.
           </p>
         </div>
         
-        <div className="mx-auto max-w-5xl pt-16">
+        <div className="mx-auto max-w-5xl">
            <Carousel
             opts={{
               align: 'start',
@@ -46,15 +46,16 @@ export function Gallery() {
                         width={600}
                         height={600}
                         data-ai-hint={image.imageHint}
-                        className="rounded-lg object-cover w-full h-auto aspect-square transition-transform duration-300 hover:scale-105"
+                        className="rounded-lg object-cover w-full h-auto transition-transform duration-300 hover:scale-105"
+                        style={{ aspectRatio: '1 / 1' }}
                       />
                     </div>
                   </CarouselItem>
                 ) : null
               )}
             </CarouselContent>
-            <CarouselPrevious className="text-foreground" />
-            <CarouselNext className="text-foreground" />
+            <CarouselPrevious className="text-foreground hidden md:flex" />
+            <CarouselNext className="text-foreground hidden md:flex" />
           </Carousel>
         </div>
       </div>

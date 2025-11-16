@@ -22,16 +22,16 @@ const steps = [
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">
                 Veja Como Funciona na Prática
               </h2>
-              <p className="max-w-[900px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <p className="max-w-[900px] text-foreground/80 text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Em três passos simples, você estará no caminho para uma vida íntima mais rica e excitante.
               </p>
             </div>
           </div>
-          <div className="mx-auto grid max-w-5xl items-start gap-12 py-12 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-5xl items-start gap-10 py-12 lg:grid-cols-3 lg:gap-12">
             {steps.map((step, index) => (
-              <div key={index} className="grid gap-4 relative">
-                 <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-2xl font-bold text-primary-foreground">{index + 1}</div>
+              <div key={index} className="grid gap-4 relative text-center md:text-left">
+                 <div className="flex flex-col md:flex-row items-center gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-2xl font-bold text-primary-foreground flex-shrink-0">{index + 1}</div>
                   <h3 className="text-xl font-bold text-accent">{step.title}</h3>
                 </div>
                 <p className="text-muted-foreground">{step.description}</p>
