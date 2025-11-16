@@ -23,7 +23,7 @@ const featuresContent = [
   {
     image: PlaceHolderImages.find((img) => img.id === 'phone-mockup-3'),
     title: 'Dificuldades variadas',
-    description: 'Siga nossas jornadas temáticas para explorar novas fantasias e sensações.',
+    description: 'Posições com níveis de dificuldade fácil, médio e difícil.',
   },
 ];
 
