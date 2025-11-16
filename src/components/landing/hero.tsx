@@ -35,7 +35,7 @@ export function Hero() {
           </Button>
 
           {heroImage && (
-            <div className="relative mt-8 w-full max-w-2xl mx-auto">
+            <div className="relative mt-8 w-full max-w-4xl mx-auto">
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -43,7 +43,7 @@ export function Hero() {
                 height={0}
                 sizes="100vw"
                 data-ai-hint={heroImage.imageHint}
-                className="rounded-lg object-contain w-auto h-auto mx-auto shadow-2xl shadow-primary/20"
+                className="rounded-lg object-contain w-full h-auto mx-auto shadow-2xl shadow-primary/20"
                 style={{ objectFit: 'contain' }}
                 priority
               />
