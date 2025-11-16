@@ -73,8 +73,8 @@ export function Testimonials() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="text-foreground left-2 md:-left-12" />
-            <CarouselNext className="text-foreground right-2 md:-right-12" />
+            <CarouselPrevious className="text-foreground -left-2 md:-left-12" />
+            <CarouselNext className="text-foreground -right-2 md:-right-12" />
           </Carousel>
         </div>
       </div>
