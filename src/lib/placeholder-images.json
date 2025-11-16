@@ -69,7 +69,7 @@
     {
       "id": "gallery-2",
       "description": "Close up of a couple holding hands.",
-      "imageUrl": "https://images.unsplash.com/photo-1579208570378-8c970854bc23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjBoYW5kc3xlbnwwfHx8fDE3NjMyMDgxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.postimg.cc/Ls1GJSV3/Design-sem-nome-(10).png",
       "imageHint": "couple hands"
     },
     {
@@ -81,19 +81,19 @@
     {
       "id": "gallery-4",
       "description": "Abstract lights creating a romantic mood.",
-      "imageUrl": "https://images.unsplash.com/photo-1762554560985-83de56a349c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb21hbnRpYyUyMGxpZ2h0c3xlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1762554560985-83de56a349c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb21hbnRpYyUyMGxpZ2h0c3xlbnwwfHx8fDE3NjMyNTY4ODN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "romantic lights"
     },
     {
       "id": "gallery-5",
       "description": "Red rose petals on a dark background.",
-      "imageUrl": "https://images.unsplash.com/photo-1615919737249-965d68c7e439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb3NlJTIwcGV0YWxzfGVufDB8fHx8MTc2MzIxMTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615919737249-965d68c7e439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb3NlJTIwcGV0YWxzfGVufDB8fHx8MTc2MzIxMTU1Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "rose petals"
     },
     {
       "id": "gallery-6",
       "description": "Scented candles burning in a dim room.",
-      "imageUrl": "https://images.unsplash.com/photo-1580445206726-c6eace8e02e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2VudGVkJTIwY2FuZGxlc3xlbnwwfHx8fDE3NjMxOTExNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580445206726-c6eace8e02e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2VudGVkJTIwY2FuZGxlc3xlbnwwfHx8fDE3NjMxOTExNTN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "scented candles"
     }
   ]
